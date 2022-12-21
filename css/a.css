@@ -1,0 +1,182 @@
+{
+    margin:0px;
+    padding:0px;
+
+}
+html{
+    scroll-behavior: smooth;
+    height: fit-content;
+  
+
+}
+:root{
+    --naavbar-height:59px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top:0px;
+ color:coral solid;
+}
+
+#logo{
+    
+}
+#logo img{
+
+    height: 80px;
+    margin-left:6px;
+    
+    font-size:10px;
+ 
+
+}
+.t{
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+    color:antiquewhite;
+}
+#navbar ul{
+    display:flex;
+    margin: 0px 90px;
+}
+#navbar::before{
+  content:"";
+  background-color: rgb(18, 18, 18,.8);
+  opicity: 0.6;
+  z-index: -1;
+  position: absolute;
+  height:100%;
+  width:110%;   
+  top:0px;
+  left:0px;
+    
+
+}
+
+#navbar ul li 
+{
+    list-style: none;
+    font-size:1.3rem;
+    padding-left:200px;
+    padding-right: 5;
+   color:#27da72;
+    
+}
+
+#navbar ul li a:hover{
+    
+    display: block;
+    padding:3px 22px ;
+    border-radius: 20px;
+    text-decoration: underline;
+    color:antiquewhite;
+    
+
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 300px;
+    background-color: #7004aa;
+  }
+  #about img{
+    width;50px;
+    height:50px;
+
+  }
+  
+  #blog {
+    top: 380px;
+    background-color: #a2ccee;
+  }
+  #blog img{
+    width;50px;
+    height:50px;
+  }
+  
+  #projects {  top: 440px;
+  background-color:white ;
+}
+#projects img{
+  width;50px;
+  height:50px;
+}
+
+#contact {
+  top: 520px;
+  background-color: rgb(255, 170, 170)
+}
+#contact img{
+  width;50px;
+  height:50px;
+}
+
+
+#home{
+  display: flex;
+  
+  padding:1px 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  height: 700px;
+  color:tomato;
+}
+
+#home::before{
+  content: "";
+  background:url("../bg2.jpg");
+  position:absolute;
+  top:0px;
+  background-size: 100%;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  opacity: 0.89;
+  background-position:inherit;
+  background-repeat:no-repeat;
+}
+#home1{
+  display: flex;
+  
+  padding:1px 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  height: 700px;
+  color:tomato;
+  
+}
+
+#home1::before{
+  content: "";
+  background:url("../bg2.jpg");
+  position:absolute;
+  top:0px;
+  background-size: 100%;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  opacity: 0.89;
+  background-position:inherit;
+  background-repeat:no-repeat;
+
+}
